@@ -1496,4 +1496,15 @@
 		<Column_70_79>1460123.70712153</Column_70_79>
 		<Column_80>880935.17740708</Column_80>
 	</Row>
+	<Row>
+		<Cause>Other intentional injuries</Cause>
+		<Column_0_4>1169473.38056981</Column_0_4>
+		<Column_5_14>220664.27827166</Column_5_14>
+		<Column_15_29>568156.60234869</Column_15_29>
+		<Column_30_44>847196.719097441</Column_30_44>
+		<Column_45_59>1435179.24462745</Column_45_59>
+		<Column_60_69>1331312.60897209</Column_60_69>
+		<Column_70_79>1460397.54667153</Column_70_79>
+		<Column_80>881098.32895708</Column_80>
+	</Row>
 </Root>
