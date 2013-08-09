@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <script src="data.js"></script>
+    <title>Death Simulator</title>
+  <style>
+  body {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    background-color:#000000
+  }
+  
+  h1 {
+    font-family:'Trebuchet MS', 'Helvetica', sans-serif;
+    color:#FFFFFF;
+  }
+
+  canvas{
+    outline:0;
+    border:10px solid #FFFFFF;
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    height:400px;
+  }
+  
+  .frame{
+    margin:auto;
+    width:820px;
+    height:420px;
+    background-image:url('map3.jpg');
+    background-repeat:no-repeat;
+    background-position:50%;
+    background-color:#000000;
+    background-size:800px
+  }
+  
+
+  </style>
+  </head>
+  <body>
+    <div><h1>Statistically Accurate Death Simulator</h1></div>
+    <div class="frame">
+      <canvas id='c'>Sorry, your browser doesn't support this!</canvas>
+        <script src="js1.js"></script>
+    </div>
+    <div><button onclick="k()">Start simulation</button></div>
+  </body>
+</html>
