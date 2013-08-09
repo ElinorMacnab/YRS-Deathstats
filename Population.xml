@@ -1,7 +1,59 @@
-65781.1 105540.0 114567.0 63687.4 33183.4 11646.1 5231.0 1165.7
-39340.3 79181.9 113337.6 94898.9 73828.5 28107.0 15656.3 7730.2
-37132.4 66015.0 88757.9 56596.5 31809.9 10339.7 5254.8 1522.8
-26787.9 53375.9 98439.9 96301.2 85150.2 35933.3 24623.2 9534.1
-93549.8 185047.3 251755.6 185843.2 120284.9 38978.4 18928.1 5077.4
-65406.1 138919.4 224211.3 222411.4 160086.9 60099.2 34515.3 11051.1
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Total xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <stat>
+    <ArrayOfFloat>
+      <float>65781.1</float>
+      <float>105540</float>
+      <float>114567</float>
+      <float>63687.4</float>
+      <float>33183.4</float>
+      <float>11646.1</float>
+      <float>5231</float>
+    </ArrayOfFloat>
+    <ArrayOfFloat>
+      <float>39340.3</float>
+      <float>79181.9</float>
+      <float>113337.6</float>
+      <float>94898.9</float>
+      <float>73828.5</float>
+      <float>28107</float>
+      <float>15656.3</float>
+    </ArrayOfFloat>
+    <ArrayOfFloat>
+      <float>37132.4</float>
+      <float>66015</float>
+      <float>88757.9</float>
+      <float>56596.5</float>
+      <float>31809.9</float>
+      <float>10339.7</float>
+      <float>5254.8</float>
+    </ArrayOfFloat>
+    <ArrayOfFloat>
+      <float>26787.9</float>
+      <float>53375.9</float>
+      <float>98439.9</float>
+      <float>96301.2</float>
+      <float>85150.2</float>
+      <float>35933.3</float>
+      <float>24623.2</float>
+    </ArrayOfFloat>
+    <ArrayOfFloat>
+      <float>93549.8</float>
+      <float>185047.3</float>
+      <float>251755.6</float>
+      <float>185843.2</float>
+      <float>120284.9</float>
+      <float>38978.4</float>
+      <float>18928.1</float>
+    </ArrayOfFloat>
+    <ArrayOfFloat>
+      <float>65406.1</float>
+      <float>138919.4</float>
+      <float>224211.3</float>
+      <float>222411.4</float>
+      <float>160086.9</float>
+      <float>60099.2</float>
+      <float>34515.3</float>
+    </ArrayOfFloat>
+  </stat>
+</Total>
