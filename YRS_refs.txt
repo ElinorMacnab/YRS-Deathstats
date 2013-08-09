@@ -1,0 +1,5 @@
+Mortality statistics - http://www.who.int/healthinfo/mortality_data/en/index.html
+Populations and population densities - http://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_population_density
+Birth rates - https://www.cia.gov/library/publications/the-world-factbook/fields/2054.html and http://www.populstat.info/ (and numerous other sources)
+Stillbirth rates - http://www.who.int/reproductivehealth/topics/maternal_perinatal/stillbirth/en/
+Map - possibly http://www.naturalearthdata.com/downloads/; HTML version definitely from http://www.ngdc.noaa.gov/mgg/topo/pictures/GLOBALeb10colshade.jpg
