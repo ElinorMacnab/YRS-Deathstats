@@ -12,7 +12,7 @@ public class CreatePeople : MonoBehaviour {
 	void Start () {
 		using(Stream s = new FileStream("Assets//data.xml",FileMode.Open))
 			world = (World)new XmlSerializer(typeof(World)).Deserialize(s);
-		List<Rect> regionrects  = new List<Rect>(){new Rect(-10,-20,35,40),new Rect(-100,-50,90,95),new Rect(35,-5,65,55),new Rect(8,15,17,10),new Rect(-10,20,40,30),new Rect(30,-30,70,40)};
+		List<Rect> regionrects  = new List<Rect>(){new Rect(-10,-20,35,40),new Rect(-100,-40,90,85),new Rect(35,-5,65,55),new Rect(8,15,17,10),new Rect(-10,20,40,30),new Rect(30,-30,70,40)};
 		for(int i = 0;i<world.regions.Count;i++)
 		{
 			
@@ -24,7 +24,41 @@ public class CreatePeople : MonoBehaviour {
 		float proportion = ((float)numberofpeople)/(float)total;
 		foreach(Region r in world.regions)
 		{
-			Color regioncolour = new Color(Random.Range(0,25)*10,Random.Range(0,25)*10,Random.Range(0,25)*10,255);
+			var index = world.regions.IndexOf(r);
+			Color regioncolour = Color.yellow;
+			if(index==0)
+			{
+				regioncolour = Color.yellow;
+				
+			}
+			if(index==1)
+			{
+				regioncolour = Color.red;
+				
+			}
+			if(index==2)
+			{
+				regioncolour = Color.blue;
+					
+				
+			}
+			if(index==3)
+			{
+				regioncolour = Color.green;	
+				
+			}
+			if(index==4)
+			{
+				regioncolour = Color.magenta;	
+				
+			}
+			if(index==5)
+			{
+				regioncolour = Color.white;
+				
+			}
+				
+			
 			float pop = r.population;
 			float number = r.population*proportion;
 			

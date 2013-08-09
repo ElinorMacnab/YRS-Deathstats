@@ -10,6 +10,6 @@ public class Fly : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	this.gameObject.transform.Translate(new Vector3(0,(float)0.5,0),Space.World);
+	this.gameObject.transform.Translate(new Vector3(0,(float)0.1,0),Space.World);
 	}
 }
